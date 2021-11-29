@@ -1,0 +1,7 @@
+{
+  "name": "@frontend/shared",
+  "version": "0.0.1",
+  "description": "Shared package for both web and mobile",
+  "main": "index.js",
+  "license": "MIT"
+}
