@@ -63,7 +63,11 @@ const App = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return <Text>{sharedVariable}</Text>;
+  return (
+    <SafeAreaView style={backgroundStyle}>
+      <Text>{sharedVariable}</Text>
+    </SafeAreaView>
+  );
 
   // return (
   //   <SafeAreaView style={backgroundStyle}>

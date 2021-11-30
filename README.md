@@ -17,9 +17,13 @@ This monorepo is powered by Yarn Workspaces.
 - To run the iOS app, make sure you are in a Mac machine with XCode installed.
 - For more Android and iOS development setup guide, follow the instructions [here](https://reactnative.dev/docs/environment-setup).
 
-## Available Scripts
+## Running the Projects
 
-In the project directory, you can run:
+Before running the mobile app / web, run the following command first in a separate terminal:
+
+### `yarn shared`
+
+Builds and watches the shared package for changes. This is needed by the app and web projects to get the updated shared code all the time.
 
 ### `yarn android`
 
