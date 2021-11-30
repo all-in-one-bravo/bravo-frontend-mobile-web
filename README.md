@@ -8,7 +8,7 @@ This monorepo is powered by Yarn Workspaces.
 - If you just cloned the repo for the first time, run `yarn install` in the root directory.
 - To run the Android app, make sure you have the Android SDK and Android devices setup.
 - To run the iOS app, make sure you are in a Mac machine with XCode installed.
-- For Android and iOS development setup guide, follow the instructions [https://reactnative.dev/docs/environment-setup](here)
+- For Android and iOS development setup guide, follow the instructions [here](https://reactnative.dev/docs/environment-setup).
 
 **Note: Until a better solution is found, temporarily copy the `shared` directory under `packages` and paste it into the `node_modules` of the `packages/app` directory and rename it to `@frontend/shared`**
 
