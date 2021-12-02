@@ -10,9 +10,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@frontend/shared": "0.0.1",
+    "appcenter": "4.3.0",
+    "appcenter-analytics": "4.3.0",
+    "appcenter-crashes": "4.3.0",
     "react": "17.0.2",
-    "react-native": "0.66.3",
-    "@frontend/shared": "0.0.1"
+    "react-native": "0.66.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
