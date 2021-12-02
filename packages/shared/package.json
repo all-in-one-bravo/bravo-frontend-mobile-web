@@ -6,7 +6,8 @@
   "typings": "build/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -w"
+    "build": "tsc",
+    "build-and-watch": "tsc -w"
   },
   "dependencies": {
     "@testing-library/react": "^11.1.0",
