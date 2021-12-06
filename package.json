@@ -9,7 +9,6 @@
         "shared": "cd packages/shared && yarn build",
         "android": "cd packages/app && yarn react-native run-android",
         "ios": "cd packages/app && yarn react-native run-ios",
-        "web": "cd packages/web && yarn start",
-        "preinstall": "sh pre-install.sh"
+        "web": "cd packages/web && yarn start"
       }
  }

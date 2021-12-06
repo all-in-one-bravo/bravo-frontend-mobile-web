@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js build
+
+PATH: 
+  /Users/sevi/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/smlnj/bin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/sevi/opt/anaconda3/bin:/Users/sevi/opt/anaconda3/condabin:/Users/sevi/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sevi/Zuhlke/Projects/Generali/Code/bravo-frontend-mobile-web/package.json: Unexpected token } in JSON at position 396
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@frontend/shared",
+    "version": "0.0.1",
+    "description": "Shared package for both web and mobile",
+    "main": "build/index.js",
+    "typings": "build/index.d.ts",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc",
+      "build-and-watch": "tsc -w"
+    },
+    "dependencies": {
+      "@testing-library/react": "^11.1.0",
+      "@types/react": "^17.0.0",
+      "react": "^17.0.2",
+      "typescript": "^4.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
