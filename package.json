@@ -2,7 +2,7 @@
     "private": true,
     "name": "bravo-frontend-web-mobile",
     "version": "0.0.1",
-    "workspaces":  [
+    "workspaces": [
         "packages/*"
     ],
     "scripts": {
@@ -10,5 +10,10 @@
         "android": "cd packages/app && yarn react-native run-android",
         "ios": "cd packages/app && yarn react-native run-ios",
         "web": "cd packages/web && yarn start"
-      }
- }
+    },
+    "dependencies": {
+        "appcenter": "4.3.0",
+        "appcenter-analytics": "4.3.0",
+        "appcenter-crashes": "4.3.0"
+    }
+}
